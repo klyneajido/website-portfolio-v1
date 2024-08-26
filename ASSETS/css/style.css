@@ -551,7 +551,7 @@ border-radius: 6px;
 }
 @media screen and (max-width:400px){
   .terminal .fakeScreen p{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 }
 .about-my-goals {
