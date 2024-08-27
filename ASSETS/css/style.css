@@ -1096,6 +1096,7 @@ bottom: 150px;
 .project-tech{
   top:0;
   bottom: 0;
+ padding-left: 0 !important;
 }
 .project-tech .tech{
   background-color: #d9d9d9;
@@ -1103,13 +1104,20 @@ bottom: 150px;
   min-width: 35px;
   text-align: center;
   font-size: 14px;
+  
 }
 
 /* Hide the individual icons on small screens */
 .icon-link {
   display: none;
 }
-
+@media (max-width:400px){
+  .project-tech .tech{
+    text-align: center;
+    font-size: 10px;
+    text-wrap: wrap;
+  }
+}
 /* Show the icons on medium to large screens */
 @media (min-width: 768px) {
   .icon-link {
