@@ -41,7 +41,6 @@ height:auto;
   font-size: 20px;
   z-index: 1; /* Lower z-index for navbar */
   width: 100%;
-  position: fixed;
 }
 .nav-list ul {
   list-style: none;
