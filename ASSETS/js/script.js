@@ -64,7 +64,7 @@ document.addEventListener("scroll", () => {
 
   // Initialize Typed.js
   new Typed(".auto-type", {
-    strings: ["a BSCS Student.", "in my 4th year.", "going to be a Developer."],
+    strings: ["a BSCS Graduate.", "an aspiring Developer.", "passionate about building things."],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true,
